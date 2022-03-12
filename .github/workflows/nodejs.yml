@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
 steps:
-  - name: Start make lint
-    run: make lint
+  - uses: actions/checkout@v2
+
+  - run: make lint
