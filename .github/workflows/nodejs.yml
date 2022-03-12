@@ -1,0 +1,11 @@
+name: Node CI
+
+on: commit
+
+jobs: 
+  my-job:
+    runs-on: ubuntu-latest
+
+steps:
+  - name: Start make lint
+    run: make lint

@@ -21,6 +21,13 @@
   },
   "homepage": "https://github.com/annaborovinskayaX/frontend-project-lvl1#readme",
   "dependencies": {
+    "jest": "^27.5.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1"
   }
 }
