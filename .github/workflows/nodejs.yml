@@ -1,6 +1,6 @@
 name: Node CI
 
-on: commit
+on: push
 
 jobs: 
   my-job:
