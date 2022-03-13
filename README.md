@@ -1,4 +1,4 @@
-[![badge](https://github.com/annaborovinskayaX/frontend-project-lvl1/.github/workflows/nodejs.yml/badge.svg)]
+![badge](https://github.com/annaborovinskayaX/frontend-project-lvl1/blob/main/.github/workflows/nodejs.yml/badge.svg)
 
 asciinema: https://asciinema.org/a/B24lh0BbAgSOh2hTg1OVNmi9r
 
