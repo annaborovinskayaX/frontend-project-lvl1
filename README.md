@@ -1,4 +1,6 @@
-![example workflow](https://github.com/annaborovinskayaX/frontend-project-lvl1/tree/main/.github/workflows/nodejs.yml)
+![workflow](https://github.com/annaborovinskayaX/frontend-project-lvl1/tree/main/.github/workflows/nodejs.yml)
+
+asciinema: https://asciinema.org/a/B24lh0BbAgSOh2hTg1OVNmi9r
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/annaborovinskayaX/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/annaborovinskayaX/frontend-project-lvl1/actions)
