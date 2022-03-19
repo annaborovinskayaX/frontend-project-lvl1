@@ -22,7 +22,7 @@ const getHideArray = () => {
 
 const gameInfo = () => {
   const [answer, fullArray] = getHideArray();
-  const question = `${fullArray}`;
+  const question = fullArray.join(' ');
   return [question, String(answer)];
 };
 
