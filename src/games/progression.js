@@ -4,7 +4,7 @@ const rules = 'What number is missing in the progression?';
 
 const getHideArray = () => {
   const fullArray = [];
-  const arrayLength = getRandomInt(5, 10);
+  const arrayLength = getRandomInt(7, 10);
   const firstInArray = getRandomInt(1, 16);
   fullArray.push(firstInArray);
   const progressionStep = getRandomInt(2, 9);
