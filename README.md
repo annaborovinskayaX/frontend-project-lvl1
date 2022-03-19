@@ -9,7 +9,6 @@ Description:
 
 The repository contains 5 console games. To win, you must successfully answer 3 questions in a row in the selected game.
 
-
 Games:
 
 1. brain-calculate - calculator
@@ -21,7 +20,6 @@ Games:
 4. brain-prime - check if a number is prime
 
 5. brain progression - calculate and enter the missing number from the progression
-
 
 Before running the games do next actions:
 
