@@ -9,35 +9,6 @@ Description:
 
 The repository contains 5 console games. To win, you must successfully answer 3 questions in a row in the selected game.
 
-Games:
-
-1. brain-calculate - calculator
-
-2. brain-even - check if a number is even
-
-3. brain-gcd - calculate the greatest common divisor of two numbers
-
-4. brain-prime - check if a number is prime
-
-5. brain progression - calculate and enter the missing number from the progression
-
-Before running the games do next actions:
-
-1. Check the current updates for database with available packages: enter apt update
-
-2. Install Node.js package: enter  apt install nodejs
-
-3. Upgrade Node.js to the latest version: enter apt upgrade nodejs
-
-4. To allow you to install modules and packages with Node.js, install npm package: enter apt install npm
-
-5. Clone this repository by SSH key: git@github.com:annaborovinskayaX/frontend-project-lvl1.git
-
-6. Add and check depencies: enter make install
-
-7. Run game: enter game name
-
-
 asciinema brain-even: https://asciinema.org/a/B24lh0BbAgSOh2hTg1OVNmi9r
 
 asciinema brain-calc: https://asciinema.org/a/YzaqArAmsuI8WUEoVBeUx5Iv1
