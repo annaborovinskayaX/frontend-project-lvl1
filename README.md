@@ -6,25 +6,37 @@
 ![badge](https://github.com/annaborovinskayaX/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)
 
 Description:
+
 The repository contains 5 console games. To win, you must successfully answer 3 questions in a row in the selected game.
 
 
 Games:
+
 brain-calculate - calculator
+
 brain-even - check if a number is even
+
 brain-gcd - calculate the greatest common divisor of two numbers
+
 brain-prime - check if a number is prime
+
 brain progression - calculate and enter the missing number from the progression
 
 
 Before running the games do next actions:
 
 Check the current updates for database with available packages: enter apt update
+
 Install Node.js package: enter  apt install nodejs
+
 Upgrade Node.js to the latest version: enter apt upgrade nodejs
+
 To allow you to install modules and packages with Node.js, install npm package: enter apt install npm
+
 Clone this repository by SSH key: git@github.com:annaborovinskayaX/frontend-project-lvl1.git
+
 Add and check depencies: enter make install
+
 Run game: enter game name
 
 
