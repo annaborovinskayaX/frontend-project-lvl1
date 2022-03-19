@@ -12,32 +12,32 @@ The repository contains 5 console games. To win, you must successfully answer 3 
 
 Games:
 
-brain-calculate - calculator
+1. brain-calculate - calculator
 
-brain-even - check if a number is even
+2. brain-even - check if a number is even
 
-brain-gcd - calculate the greatest common divisor of two numbers
+3. brain-gcd - calculate the greatest common divisor of two numbers
 
-brain-prime - check if a number is prime
+4. brain-prime - check if a number is prime
 
-brain progression - calculate and enter the missing number from the progression
+5. brain progression - calculate and enter the missing number from the progression
 
 
 Before running the games do next actions:
 
-Check the current updates for database with available packages: enter apt update
+1. Check the current updates for database with available packages: enter apt update
 
-Install Node.js package: enter  apt install nodejs
+2. Install Node.js package: enter  apt install nodejs
 
-Upgrade Node.js to the latest version: enter apt upgrade nodejs
+3. Upgrade Node.js to the latest version: enter apt upgrade nodejs
 
-To allow you to install modules and packages with Node.js, install npm package: enter apt install npm
+4. To allow you to install modules and packages with Node.js, install npm package: enter apt install npm
 
-Clone this repository by SSH key: git@github.com:annaborovinskayaX/frontend-project-lvl1.git
+5. Clone this repository by SSH key: git@github.com:annaborovinskayaX/frontend-project-lvl1.git
 
-Add and check depencies: enter make install
+6. Add and check depencies: enter make install
 
-Run game: enter game name
+7. Run game: enter game name
 
 
 asciinema brain-even: https://asciinema.org/a/B24lh0BbAgSOh2hTg1OVNmi9r
