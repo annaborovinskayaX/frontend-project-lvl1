@@ -5,10 +5,6 @@
 
 ![badge](https://github.com/annaborovinskayaX/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)
 
-Description:
-
-The repository contains 5 console games. To win, you must successfully answer 3 questions in a row in the selected game.
-
 asciinema brain-even: https://asciinema.org/a/B24lh0BbAgSOh2hTg1OVNmi9r
 
 asciinema brain-calc: https://asciinema.org/a/YzaqArAmsuI8WUEoVBeUx5Iv1
