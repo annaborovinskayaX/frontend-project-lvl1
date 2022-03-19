@@ -8,6 +8,7 @@ asciinema brain-gcd: https://asciinema.org/a/WE31G6mQo1EvgwGvjBSlaY3NQ
 
 asciinema brain-progression: https://asciinema.org/a/co1pm5rqqSjmNLhfqWov13oJh
 
+asciinema brain-prime: https://asciinema.org/a/UoGp7lMh9rxc4myC5Tz8Qy8zk
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/annaborovinskayaX/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/annaborovinskayaX/frontend-project-lvl1/actions)
