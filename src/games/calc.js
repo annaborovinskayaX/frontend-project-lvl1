@@ -1,14 +1,14 @@
-import { getRandomInt, gameFrame } from '../index.js';
+import getGameFrame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const getRandomOperator = () => {
   const array = ['+', '-', '*'];
-  const random = Math.floor(Math.random() * array.length);
-  return array[random];
+  return array[getRandomInt(0, 2)];
 };
 
 const rules = 'What is the result of the expression?';
 
-const gameInfo = () => {
+const getGameInfo = () => {
   const number1 = getRandomInt(1, 50);
   const number2 = getRandomInt(1, 50);
   const operator = getRandomOperator();
@@ -30,6 +30,6 @@ const gameInfo = () => {
   return [question, answer];
 };
 
-const calcGame = () => gameFrame(rules, gameInfo);
+const playCalcGame = () => getGameFrame(rules, getGameInfo);
 
-export default calcGame;
+export default playCalcGame;

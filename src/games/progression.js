@@ -1,4 +1,5 @@
-import { getRandomInt, gameFrame } from '../index.js';
+import getGameFrame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const rules = 'What number is missing in the progression?';
 
@@ -20,12 +21,12 @@ const getHideArray = () => {
   return [answer, fullArray];
 };
 
-const gameInfo = () => {
+const getGameInfo = () => {
   const [answer, fullArray] = getHideArray();
   const question = fullArray.join(' ');
   return [question, String(answer)];
 };
 
-const progressionGame = () => gameFrame(rules, gameInfo);
+const playProgressionGame = () => getGameFrame(rules, getGameInfo);
 
-export default progressionGame;
+export default playProgressionGame;

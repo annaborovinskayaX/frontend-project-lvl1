@@ -1,15 +1,16 @@
-import { getRandomInt, gameFrame } from '../index.js';
+import getGameFrame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const gameInfo = () => {
-  const isEven = (number) => number % 2 === 0;
+const getGameInfo = () => {
+  const checkParity = (number) => number % 2 === 0;
   const number = getRandomInt(1, 1000);
-  const answer = isEven(number) ? 'yes' : 'no';
+  const answer = checkParity(number) ? 'yes' : 'no';
   const question = `${number}`;
   return [question, answer];
 };
 
-const evenGame = () => gameFrame(rules, gameInfo);
+const playEvenGame = () => getGameFrame(rules, getGameInfo);
 
-export default evenGame;
+export default playEvenGame;
